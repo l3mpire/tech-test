@@ -2,7 +2,7 @@ import { Template } from 'meteor/templating';
 
 import './main.html';
 
-Template.appBlock.onCreated(function helloOnCreated() { });
+Template.appBlock.onCreated(function() { });
 
 Template.appBlock.helpers({ });
 

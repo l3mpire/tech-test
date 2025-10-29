@@ -2,7 +2,7 @@ import { Meteor } from 'meteor/meteor';
 import { Template } from 'meteor/templating';
 
 if (Meteor.isClient) {
-    Template.appBlock.onCreated(function() { });
+    Template.appBlock.onCreated(() => { });
 
     Template.appBlock.helpers({ });
 
@@ -10,5 +10,5 @@ if (Meteor.isClient) {
 }
 
 if (Meteor.isServer) {
-    
+
 }
